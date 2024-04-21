@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS ↴↴-->
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <!--RESPONSIVE CSS ↴↴-->
+    <link rel="stylesheet" href="./Assets/css/responsive.css">
+    <!-- FONTAWSOM ↴↴-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FAVICON ↴↴-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- GOOGLE FONT ↴↴-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>PERSONAL WEBSITE / HOME</title>
+</head>
+
+<body>
+
+    <div class="darkTheme" id="Cont">
+        <div class="heroBG">
+
+        </div>
+        <div class="heroCont">
+            <div class="nav">
+                <div class="darkNav navAlign" id="nav">
+                    <div class="leftSide">
+                        <ul class="NAVlist">
+                            <li class="imgCont navli1">
+                                <img class="img11" id="img22" src="./Assets/images/white.png" alt="">
+                                <img class="img22" id="img11" src="./Assets/images/black.png" alt="">
+                            </li>
+                            <li class="liCont navli2"><a href="#">ABOUT</a></li>
+                            <li class="liCont navli3"><a href="#">WORK</a></li>
+                            <li class="liCont navli4"><a href="#">NOTEBOOK</a></li>
+                            <li class="liCont navli5"><a href="#">CONTACT</a></li>
+                            <li class="liCont navli6" id="SHOWmoreCont">
+                                <button onclick="showMore()" class="showMoreButtonDark" id="showMoreButton">MORE <i
+                                        id="MORE" class="fa-solid fa-chevron-down"></i> </button>
+                                <div class="moreCont" id="moreCont">
+                                    <div class="MoreContAlign" id="MoreContColors">
+                                        <a href="#">
+                                            <a href="">
+                                                <p>Bookshelf</p>
+                                            </a>
+                                        </a>
+                                        <a href="#">
+                                            <a href="">
+                                                <p>Tech Stack</p>
+                                            </a>
+                                        </a>
+                                        <a href="#">
+                                            <a href="">
+                                                <p>This UI Kit</p>
+                                            </a>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="rightSide">
+                        <ul class="Rightlist">
+                            <li class="rightSideLeft">
+                                <div class="barsAnim" id="barsAnim" onclick="ShowBars()">
+                                    <div class="barsAlign">
+                                        <span class="BARSANIMSPAN1" id="BARSANIMSPAN1"></span>
+                                        <span class="BARSANIMSPAN2" id="BARSANIMSPAN2"></span>
+                                        <span class="BARSANIMSPAN3" id="BARSANIMSPAN3"></span>
+                                    </div>
+                                </div>
+                                <div class="carossAnim" id="carossAnim" onclick="HideContact()">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                </div>
+                                <div id="BarsContend" class="BarsContend">
+
+                                    <ul id="" class="listContactNav">
+                                        <li><a href="#"><i class="fa-brands fa-upwork"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="rightSideRight">
+                                <button class="ModeChangeButton" onclick="toggleTheme()">
+                                    <img id="DarkMode" src="./Assets/images/darkmodeButton.png" alt="">
+                                    <img id="LightMode" src="./Assets/images/lightmodeButton.png" alt="">
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <div class="heroMain">
+                <div class="heroMainAlign">
+                    <h1 class="NameHeading">I'm <span class="hiSpan">👋</span> <span class="nameSpan"
+                            id="nameSpan">ALIYAN ARIF</span></h1>
+                    <p class="NamePara" id="typedText">
+                    </p>
+                    <div class="NameButt">
+                        <button id="Namebuttonone" class="Namebuttonone"><a href="">See my resume</a></button>
+                        <button id="Namebuttontwo" class="Namebuttontwo"><a href="">Get in touch</a></button>
+                    </div>
+                </div>
+                <div class="heroMike">
+                    <img class="heroImg1" id="heroImg1" src="./Assets/images/BLACKmIKE (2).png" alt="">
+                    <img class="heroImg2" id="heroImg2" src="./Assets/images/WHITEmIKE (1).png" alt="">
+                </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <div class="ContTwo" id="ContTwo">
+                <div class="contTwoalign">
+                    <h1>Selected Work</h1>
+                    <div class="contTwoGrid" id="contTwoGrid">
+                        <div id="gridItem1" class="gridItem1">
+                            <div class="GridLeft">
+                                <div class="GridLeftAlign">
+                                    <div class="logoContGrid">
+                                        <img src="./Assets/images/uniqueleverageLogo.PNG" alt="">
+                                    </div>
+                                    <h1>UniqueLeverage - Software for Used Car Dealerships </h1>
+                                    <p>
+                                        UniqueLeverage is a side project that I’ve built. It has all the modren aspects
+                                        to be seen within a website. Here you can buy and sell your Automobiles and
+                                        search through different areas where you can get you demanding vehicle
+                                    </p>
+                                    <div class="VisitSiteButtonCont">
+                                        <button id="visitbuttton1" class="visitbuttton"><a href="">Visit Site
+                                                ⇝</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="GridRight">
+                                <img src="./Assets/images/uniqueleverage.png" alt="">
+                            </div>
+                        </div>
+                        <div id="gridItem2" class="gridItem2">
+                            <div class="GridLeft">
+                                <div class="GridLeftAlign">
+                                    <div class="logoContGrid">
+                                        <img src="./Assets/images/SEEERlogo-removebg-preview.png" alt="">
+                                    </div>
+                                    <h1>Seeer - Online Chat with Psychic Advisors</h1>
+                                    <p>
+                                        SEEER is a project that I’ve built for practice purpose. It is a website that
+                                        containes
+                                        a ONE-ON-ONE connection of user and the Psychics on a single platform.
+                                    </p>
+                                    <div class="VisitSiteButtonCont">
+                                        <button id="visitbuttton2" class="visitbuttton"><a href="">Visit Site
+                                                ⇝</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="GridRight">
+                                <img src="./Assets/images/seeer.png" alt="">
+                            </div>
+                        </div>
+                        <div id="gridItem3" class="gridItem1">
+                            <div class="GridLeft">
+                                <div class="GridLeftAlign">
+                                    <div class="logoContGrid">
+                                        <img src="./Assets/images/uniqueleverageLogo.PNG" alt="">
+                                    </div>
+                                    <h1>UniqueLeverage - Software for Company's description </h1>
+                                    <p>
+                                        UniqueLeverage is a side project that I’ve built. It has all the modren aspects
+                                        to be seen within a website. Here you can buy and sell your Automobiles and
+                                        search through different areas where you can get you demanding vehicle
+                                    </p>
+                                    <div class="VisitSiteButtonCont">
+                                        <button id="visitbuttton3" class="visitbuttton"><a href="">Visit Site
+                                                ⇝</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="GridRight">
+                                <img src="./Assets/images/UNIQUE2.png" alt="">
+                            </div>
+                        </div>
+                        <div id="gridItem4" class="gridItem2">
+                            <div class="GridLeft">
+                                <div class="GridLeftAlign">
+                                    <div class="logoContGrid">
+                                        <img src="./Assets/images/4fav.png" alt="">
+                                    </div>
+                                    <h1>colorlib - Best Photography Portfolio Website</h1>
+                                    <p>
+                                        Alime is a project that I’ve built for practice purpose. It is a website that
+                                        helps entrepreneur to achieve the recognition that they are need.
+
+                                    </p>
+                                    <div class="VisitSiteButtonCont">
+                                        <button id="visitbuttton4" class="visitbuttton"><a href="">Visit Site
+                                                ⇝</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="GridRight">
+                                <img src="./Assets/images/4img.png" alt="">
+                            </div>
+                        </div>
+                        <div id="gridItem5" class="gridItem1">
+                            <div class="GridLeft">
+                                <div class="GridLeftAlign">
+                                    <div class="logoContGrid">
+                                        <img src="./Assets/images/uniqueleverageLogo.PNG" alt="">
+                                    </div>
+                                    <h1>UniqueLeverage - Software for ADS Website </h1>
+                                    <p>
+                                        An advatisment page that is related to the cars delership but with the use
+                                        of API integration. As this website containes date running through API
+                                        this.
+                                    </p>
+                                    <div class="VisitSiteButtonCont">
+                                        <button id="visitbuttton5" class="visitbuttton"><a href="">Visit Site
+                                                ⇝</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="GridRight">
+                                <img src="./Assets/images/uniq5.png" alt="">
+                            </div>
+                        </div>
+                        <div id="gridItem6" class="gridItem2">
+                            <div class="GridLeft">
+                                <div class="GridLeftAlign">
+                                    <div class="logoContGrid">
+                                        <img src="./Assets/images/farm.png" alt="">
+                                    </div>
+                                    <h1>TAJMEN DEVELOPER - Software Company </h1>
+                                    <p>
+                                        An agency's signup page design that i created for the company i work with.
+                                        it has all the baisc and advance feature that consists in a signup page and
+                                        currently is hosted live as our companies signup page.
+                                    </p>
+                                    <div class="VisitSiteButtonCont">
+                                        <button id="visitbuttton6" class="visitbuttton"><a href="">Visit Site
+                                                ⇝</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="GridRight">
+                                <img src="./Assets/images/frame6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <div class="ContThree" id="ContThree">
+                <div class="ContThreeAlign">
+                    <h1>Get to know me</h1>
+                    <div class="ContThreeGrid">
+                        <div class="GridThreeItem GridThreeItem3" id="GridThreeItem1">
+                            <a href="">
+                                <h1>About me</h1>
+                                <p>Who I am and what I do</p>
+                                <img class="Grid3Img" src="./Assets/images/AVATAR.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="GridThreeItem GridThreeItem4" id="GridThreeItem2">
+                            <a href="">
+                                <h1>Notebook</h1>
+                                <p>My thoughts, insights, and reflections</p>
+                                <img class="Grid3Img" src="./Assets/images/Notebook.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="GridThreeItem GridThreeItem2" id="GridThreeItem3">
+                            <a href="">
+                                <h1>Bookshelf</h1>
+                                <p>Books I’ve enjoyed reading</p>
+                                <img class="Grid3Img" src="./Assets/images/bookshelf.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="GridThreeItem GridThreeItem1" id="GridThreeItem4">
+                            <a href="">
+                                <h1>Tech Stack</h1>
+                                <p>The Tech tools I use and play.</p>
+                                <img class="TechStakeImg" src="./Assets/images/techSTAKE.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <div class="ContFour" id="ContFour">
+                <div class="ContFourAlign">
+                    <div class="ContFourL">
+                        <h1>Let’s work together</h1>
+                        <p>Want to discuss an opportunity to create something great? I’m ready when you are.</p>
+                    </div>
+                    <div class="ContFourR">
+                        <button class="ContFourButton">
+                            <a href="">
+                                <img src="./Assets/images/nextContact.png" alt="">
+                                Get in touch
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <div class="footer" id="footer">
+                <div class="footerBG"></div>
+                <div class="footerAlign">
+                    <div class="footerAlignL">
+                        <div class="imgFooterCont">
+                            <img class="footerIMG1" id="footerIMG1" src="./Assets/images/white.png" alt="">
+                            <img class="footerIMG2" id="footerIMG2" src="./Assets/images/black.png" alt="">
+                        </div>
+                        <p>Thanks for stopping by ッ</p>
+                        <span>© 2024 Ragu Khan. All Rights Reserved.</span>
+                    </div>
+                    <div class="footerAlignR" id="footerAlignR">
+                        <div class="FoterRL1">
+                            <ul class="footerNavList">
+                                <li class="List2Heading">
+                                    <h1>Links</h1>
+                                </li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Work</a></li>
+                                <li><a href="">Tech Stack</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="FoterRL2">
+                            <ul class="footerNavList">
+                                <li class="List2Heading">
+                                    <h1>Elsewhere</h1>
+                                </li>
+                                <li><a href="">Email</a></li>
+                                <li><a href="">GitHub</a></li>
+                                <li><a href="">LinkedIn</a></li>
+                                <li><a href="">Slack</a></li>
+                                <li><a href="">Discord</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <div class="scrollToTop" id="">
+                <button onclick="scrollToTop()" id="scrollToTopBtn" class="scrollToTopButton" title="Go to top">
+                    ↑
+                </button>
+            </div>
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <div class="darkThemeBut" id="darkThemeBut">
+                <button class="darkThemeButton" onclick="toggleTheme()">
+                    <img class="modeSwitchButtons1" id="modeSwitchButtons1" src="./Assets/images/lightmodeButton.png"
+                        alt="">
+                    <img class="modeSwitchButtons2" id="modeSwitchButtons2" src="./Assets/images/darkMoon.png" alt="">
+                </button>
+            </div>
+
+        </div>
+
+        <div class="footerNavs">
+            <div class="footerNavsAlign">
+                <div class="footerNavsAlignAlign">
+                    <ul class="fotterList1">
+                        <li><a href=""><i class="fa-solid fa-house"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                        <li onclick="showMoreonBottomList()" id="fotterList1Closebutton"><i
+                                class="fa-solid fa-plus"></i></li>
+                        <li><a href=""><i class="fa-solid fa-suitcase"></i></a></li>
+                        <li><a href=""><i class="fa-solid fa-address-book"></i></a></li>
+                    </ul>
+                    <ul class="fotterList2" id="fotterList2">
+                        <div class="fotterList2Align">
+                            <li><a href=""><i class="fa-solid fa-suitcase"></i></a></li>
+                            <li><a href=""><i class="fa-solid fa-address-book"></i></a></li>
+                            <li><a href=""><i class="fa-solid fa-plus"></i></a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="./Assets/javascript/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,444 @@
+@media (max-width: 1090px) {
+    .barsAnim {
+        display: block;
+    }
+
+    .BarsContend {
+        display: none;
+    }
+
+    .rightSideLeft ul {
+        width: 90px;
+        height: 80px;
+        background-color:
+            rgba(255, 255, 255, 0.3);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 83px;
+        right: 35px;
+        border: 1px solid;
+        border-top: none;
+        z-index: 10;
+    }
+
+    .navAlign,
+    .heroMainAlign,
+    .contTwoalign,
+    .ContThreeAlign,
+    .ContFourAlign,
+    .footerAlign {
+        width: 80%;
+    }
+}
+
+@media (max-width: 769px) {
+
+    .navli2,
+    .navli3,
+    .navli4,
+    .navli5,
+    .navli6 {
+        display: none;
+    }
+
+    .GridRight {
+        display: none;
+    }
+
+    .GridLeft {
+        width: 90%;
+    }
+
+    .heroMainAlign {
+        height: 95%;
+    }
+
+    .footerNavs {
+        display: block;
+        width: 90%;
+        height: max-content;
+        position: fixed;
+        bottom: 20px;
+        left: 5%;
+        z-index: 100;
+    }
+
+    .footerNavsAlign {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerNavsAlignAlign {
+        width: 89%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: rgba(96, 96, 96, 0.3);
+        border-radius: 10px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .fotterList1 {
+        height: 50px;
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+        align-items: center;
+    }
+
+    .rightSideLeft ul {
+        width: 90px;
+        height: 80px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 0;
+        right: 100px;
+        border: none;
+        border-top: none;
+        z-index: 10;
+    }
+
+    .NamePara {
+        width: 100%;
+    }
+
+    .footer {
+        padding-bottom: 90px;
+    }
+
+    .fotterList2 {
+        display: none;
+        height: 0px;
+        width: 100%;
+        animation: fotterList2 0.2s linear forwards;
+        transform: translateY(-50px);
+        overflow: hidden;
+        opacity: 0;
+    }
+
+    @keyframes fotterList2 {
+        to {
+            height: 50px;
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+
+    .fotterList2Align {
+        height: 100%;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+        align-items: center;
+    }
+
+    #fotterList1Closebutton {
+        transition: 1s ease all;
+    }
+
+    .footerNavsAlignAlign a {
+        color: inherit;
+    }
+
+    .scrollToTop {
+        display: none;
+    }
+
+    .rightSideLeft {
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    .heroMainAlign {
+        height: max-content;
+    }
+
+    .fotterList1 li a i,
+    .fotterList2Align li a i {
+        width: 35px;
+        height: 35px;
+        background: linear-gradient(to bottom, rgb(255 0 0 / 27%), rgb(255 222 161 / 91%));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: 1s ease all;
+    }
+
+    .fotterList1 li a i:hover,
+    .fotterList2Align li a i:hover {
+        background: linear-gradient(to top ,rgb(255 0 0 / 27%), rgb(255 222 161 / 91%));
+    }
+
+    .fotterList1 li a i:active,
+    .fotterList2Align li a i:active {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hiSpan {
+        display: contents;
+    }
+
+    .NameHeading {
+        width: 403px;
+        font-size: 60px;
+    }
+
+
+    .NamePara {
+        font-size: 25px;
+        margin-top: 37px;
+    }
+
+    .NameButt {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .rightSideLeft ul {
+        right: 85px;
+    }
+
+    .gridItem1,
+    .gridItem2 {
+        animation: ani 1s linear forwards;
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    @keyframes ani {
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .AnimateCart1,
+    .AnimateCart2 {
+        animation: ami 1s linear forwards;
+    }
+
+    @keyframes ami {
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .logoContGrid {
+        margin: 10px 0px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .visitbuttton {
+        font-size: 16px;
+    }
+
+    .ContThreeGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .ContFourAlign {
+        flex-direction: column;
+    }
+
+    .ContFourL {
+        width: 100%;
+    }
+
+    .ContFourR {
+        width: 100%;
+    }
+
+    .ContFourButton {
+        width: 100%;
+    }
+
+    .ContFourButton:hover {
+        transform: translateY(-10px);
+    }
+
+    .animatedcart11,
+    .animatedcart12,
+    .animatedcart13,
+    .animatedcart14 {
+        transform: translateX(0px);
+        opacity: 1;
+        animation: anni 0.2s linear forwards;
+    }
+
+    @keyframes anni {
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    .GridThreeItem1,
+    .GridThreeItem2,
+    .GridThreeItem3,
+    .GridThreeItem4 {
+        transform: translateX(0);
+        opacity: 1;
+        animation: ammi 0.2s linear forwards;
+    }
+
+    @keyframes ammi {
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    .GridThreeItem:hover {
+        transform: translateY(-20px);
+    }
+
+    .Grid3Img {
+        margin-top: 20px;
+    }
+
+    .footerAlignL {
+        width: 100%;
+        margin-top: 40px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footerAlignR {
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .footerAlign {
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        height: max-content;
+    }
+
+    .FoterRL1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        margin-top: 40px;
+    }
+
+    .FoterRL2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+    }
+
+    .GridLeftAlign p {
+        font-size: 15px;
+    }
+
+    .contTwoalign h1 {
+        font-size: 20px;
+    }
+
+
+}
+
+@media (max-width: 450px) {
+    .NameHeading {
+        width: 342px;
+        font-size: 50px;
+    }
+
+    .darkThemeBut {
+        width: 30px;
+        height: 30px;
+    }
+
+    .fotterList1,
+    .fotterList2 {
+        gap: 30px;
+    }
+
+    .footerNavsAlignAlign {
+        width: 100%;
+    }
+
+    .NameButt {
+        flex-direction: column;
+    }
+
+    .GridLeftAlign {
+        width: 85%;
+        height: 100%;
+
+    }
+
+    .VisitSiteButtonCont {
+        margin-top: 26px;
+    }
+
+    .GridLeftAlign p {
+        height: max-content;
+    }
+
+    .NamePara {
+        font-size: 19px;
+        text-align: justify;
+    }
+
+    .NamePara {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 380px) {
+    .NameHeading {
+        width: 307px;
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width: 341px) {
+    .NameHeading {
+        width: 270px;
+        font-size: 50px;
+    }
+
+}
